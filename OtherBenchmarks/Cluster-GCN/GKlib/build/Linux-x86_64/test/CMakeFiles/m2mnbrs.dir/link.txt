@@ -1,0 +1,1 @@
+/usr/bin/gcc  -DLINUX -D_FILE_OFFSET_BITS=64 -std=c99 -fno-strict-aliasing -march=native -fPIC -Werror -Wall -pedantic -Wno-unused-function -Wno-unused-but-set-variable -Wno-unused-variable -Wno-unknown-pragmas -Wno-unused-label -DNDEBUG -DNDEBUG2 -DHAVE_EXECINFO_H -DHAVE_GETLINE -O3 -rdynamic CMakeFiles/m2mnbrs.dir/m2mnbrs.c.o -o m2mnbrs  ../libGKlib.a -lm 

@@ -1,0 +1,3 @@
+- dataset_centrality=Flickr_NO
+- dataset_name=flickr
+- num_epoch=100

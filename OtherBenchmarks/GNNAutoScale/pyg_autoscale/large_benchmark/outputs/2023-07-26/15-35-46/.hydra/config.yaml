@@ -1,0 +1,81 @@
+model:
+  name: GCN
+  norm: true
+  loop: true
+  params:
+    ppi:
+      architecture:
+        num_layers: 3
+        hidden_channels: 1024
+        dropout: 0.2
+        drop_input: false
+        batch_norm: true
+        residual: true
+        linear: true
+      num_parts: 10
+      batch_size: 1
+      max_steps: 20
+      pool_size: 2
+      num_workers: 0
+      lr: 0.005
+      reg_weight_decay: 0.0
+      nonreg_weight_decay: 0.0
+      grad_norm: null
+      epochs: 1000
+    flickr:
+      architecture:
+        num_layers: 2
+        hidden_channels: 256
+        dropout: 0.3
+        drop_input: true
+        batch_norm: true
+        residual: false
+      num_parts: 24
+      batch_size: 12
+      max_steps: 2
+      pool_size: 2
+      num_workers: 0
+      lr: 0.01
+      reg_weight_decay: 0
+      nonreg_weight_decay: 0
+      grad_norm: null
+      epochs: 400
+    organc:
+      architecture:
+        num_layers: 3
+        hidden_channels: 2048
+        dropout: 0.5
+        drop_input: true
+        batch_norm: true
+        residual: true
+      num_parts: 12
+      batch_size: 4
+      max_steps: 6
+      pool_size: 2
+      num_workers: 0
+      lr: 0.0005
+      reg_weight_decay: 0
+      nonreg_weight_decay: 0
+      grad_norm: null
+      epochs: 400
+    organs:
+      architecture:
+        num_layers: 3
+        hidden_channels: 2048
+        dropout: 0.5
+        drop_input: true
+        batch_norm: true
+        residual: true
+      num_parts: 12
+      batch_size: 4
+      max_steps: 6
+      pool_size: 2
+      num_workers: 0
+      lr: 0.0005
+      reg_weight_decay: 0
+      nonreg_weight_decay: 0
+      grad_norm: null
+      epochs: 400
+device: 0
+root: /tmp/datasets
+log_every: 1

@@ -1,0 +1,8 @@
+/home/chris/local/include/metis.h
+/home/chris/local/lib/libmetis.so
+/home/chris/local/bin/gpmetis
+/home/chris/local/bin/ndmetis
+/home/chris/local/bin/mpmetis
+/home/chris/local/bin/m2gmetis
+/home/chris/local/bin/graphchk
+/home/chris/local/bin/cmpfillin

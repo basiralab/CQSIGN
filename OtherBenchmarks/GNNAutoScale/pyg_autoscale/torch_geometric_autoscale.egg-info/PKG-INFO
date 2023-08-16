@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: torch-geometric-autoscale
+Version: 0.0.0
+Summary: PyGAS: Auto-Scaling GNNs in PyTorch Geometric
+Author: Matthias Fey
+Author-email: matthias.fey@tu-dortmund.de
+Requires-Python: >=3.6
+Provides-Extra: test
+License-File: LICENSE

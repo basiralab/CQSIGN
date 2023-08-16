@@ -1,0 +1,9 @@
+defaults:
+  - model: 'gcn'
+device: 'cuda:0'
+root: '/tmp/datasets'
+log_every: 1
+dataset_centrality: 'PPI_NO'
+dataset_name: 'ppi'
+num_epoch: 1000
+do_eval: 1

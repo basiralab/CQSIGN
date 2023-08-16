@@ -1,0 +1,4 @@
+- dataset_name=flickr
+- dataset_centrality=Flickr_NO
+- num_epoch=100
+- device=cpu

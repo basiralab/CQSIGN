@@ -1,0 +1,3 @@
+- dataset_name=organc
+- dataset_centrality=OrganC_DC
+- num_epoch=100

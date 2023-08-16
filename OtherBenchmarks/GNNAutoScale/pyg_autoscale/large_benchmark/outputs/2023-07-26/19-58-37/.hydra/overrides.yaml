@@ -1,0 +1,4 @@
+- dataset_centrality=Flickr_NO
+- dataset_name=flickr
+- num_epoch=10
+- do_eval=0

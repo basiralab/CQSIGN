@@ -1,0 +1,11 @@
+setup.py
+actnn.egg-info/PKG-INFO
+actnn.egg-info/SOURCES.txt
+actnn.egg-info/dependency_links.txt
+actnn.egg-info/top_level.txt
+cpp_extension/backward_func.cc
+cpp_extension/calc_precision.cc
+cpp_extension/minimax.cc
+cpp_extension/minimax_cuda_kernel.cu
+cpp_extension/quantization.cc
+cpp_extension/quantization_cuda_kernel.cu

@@ -1,0 +1,6 @@
+ogb
+hydra-core
+
+[test]
+pytest
+pytest-cov

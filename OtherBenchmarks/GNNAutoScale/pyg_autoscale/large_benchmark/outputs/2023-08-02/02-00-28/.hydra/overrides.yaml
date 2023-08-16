@@ -1,0 +1,3 @@
+- dataset_name=organs
+- dataset_centrality=OrganS_CC
+- num_epoch=100

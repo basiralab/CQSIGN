@@ -1,0 +1,78 @@
+# @package _group_
+name: GCN
+norm: true
+loop: true
+params:
+
+  ppi:
+    architecture:
+      num_layers: 3
+      hidden_channels: 1024
+      dropout: 0.2
+      drop_input: false
+      batch_norm: true
+      residual: true
+      linear: true
+    num_parts: 10
+    batch_size: 1
+    max_steps: 20
+    pool_size: 2
+    num_workers: 0
+    lr: 0.005
+    reg_weight_decay: 0.0
+    nonreg_weight_decay: 0.0
+    grad_norm: null
+
+  flickr:
+    architecture:
+      num_layers: 3
+      hidden_channels: 2048
+      dropout: 0.5
+      drop_input: false
+      batch_norm: true
+      residual: false
+    num_parts: 15
+    batch_size: 3
+    max_steps: 10
+    pool_size: 2
+    num_workers: 0
+    lr: 0.0005
+    reg_weight_decay: 0
+    nonreg_weight_decay: 0
+    grad_norm: null
+    
+  organc:
+    architecture:
+      num_layers: 3
+      hidden_channels: 2048
+      dropout: 0.5
+      drop_input: true
+      batch_norm: true
+      residual: true
+    num_parts: 12
+    batch_size: 4
+    max_steps: 6
+    pool_size: 2
+    num_workers: 0
+    lr: 0.0005
+    reg_weight_decay: 0
+    nonreg_weight_decay: 0
+    grad_norm: null
+
+  organs:
+    architecture:
+      num_layers: 3
+      hidden_channels: 2048
+      dropout: 0.5
+      drop_input: true
+      batch_norm: true
+      residual: true
+    num_parts: 12
+    batch_size: 4
+    max_steps: 6
+    pool_size: 2
+    num_workers: 0
+    lr: 0.0005
+    reg_weight_decay: 0
+    nonreg_weight_decay: 0
+    grad_norm: null
