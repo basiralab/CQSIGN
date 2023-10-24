@@ -176,5 +176,18 @@ Next, the user can reproduce the benchmarks using the following script:
 ```
 ./run_GAS_benchmark.sh
 ```
+
 Note that the results of the run  be appended to results.csv file ( automatically be created if it doesn't exists) in a tabular manner.
+
+## Please cite the following paper when using CQSIGN
+```latex
+@inproceedings{adnel2023affordable,
+  title={Affordable Graph Neural Network Framework Using Topological Graph Contraction},
+  author={Adnel, Christopher and Rekik, Islem},
+  booktitle={Workshop on Medical Image Learning with Limited and Noisy Data},
+  pages={35--46},
+  year={2023},
+  organization={Springer}
+}
+```
 
