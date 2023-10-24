@@ -1,4 +1,4 @@
-# CQSIGN: Topological Contracted Quantized SIGN Framework
+# CQSIGN: Affordable GNN using Topological Contraction
 This repository is part of "Affordable Graph Neural Network Framework using Topological Graph Contraction" workshop paper published in MICCAI workshop ([MiLLAND 2023](https://miccaimilland.wixsite.com/milland2023)). This repository contains the main source code for our proposed topological graph contraction and its application on various memory-efficient GNN models (e.g., SIGN, QSIGN, GCN, Cluster-GCN, and GNN AutoScale). However, since some of the included model have different dependencies (e.g., different version of NetworkX), this repository is organized as follows:
 
 <img width="600" alt="Screenshot 2023-08-14 at 13 25 44" src="https://github.com/christopheradnel414/CQSIGN/assets/41734037/56969b5b-258e-4150-98fe-3c1984a5982a">
